@@ -12,7 +12,7 @@ This website is for the Front-End Web Developer nanodegree project where we have
 
 * Next, install the following:
 
- - grunt: npm install grunt --save-dev
+ -- grunt: npm install grunt --save-dev
 
  - grunt-contrib-copy: npm install grunt-contrib-copy --save-dev
 
