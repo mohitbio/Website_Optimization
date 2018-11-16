@@ -12,21 +12,21 @@ This website is for the Front-End Web Developer nanodegree project where we have
 
 * Next, install the following:
 
- -- grunt: npm install grunt --save-dev
+  -- grunt: npm install grunt --save-dev
 
- - grunt-contrib-copy: npm install grunt-contrib-copy --save-dev
+  -- grunt-contrib-copy: npm install grunt-contrib-copy --save-dev
 
- - grunt-contrib-cssmin: npm install grunt-contrib-cssmin --save-dev
+  -- grunt-contrib-cssmin: npm install grunt-contrib-cssmin --save-dev
 
- - grunt-contrib-htmlmin: npm install grunt-contrib-htmlmin --save-dev
+  -- grunt-contrib-htmlmin: npm install grunt-contrib-htmlmin --save-dev
 
- - grunt-contrib-uglify: npm install grunt-contrib-uglify --save-dev
+  -- grunt-contrib-uglify: npm install grunt-contrib-uglify --save-dev
 
- - grunt-processhtml: npm install grunt-processhtml --save-dev
+  -- grunt-processhtml: npm install grunt-processhtml --save-dev
 
- - grunt-usemin: npm install grunt-usemin --save-dev
+  -- grunt-usemin: npm install grunt-usemin --save-dev
 
- - grunt-contrib-concat: npm install grunt-contrib-concat --save-dev
+  -- grunt-contrib-concat: npm install grunt-contrib-concat --save-dev
 
 * Last, do grunt build and make sure there is no error.
 
