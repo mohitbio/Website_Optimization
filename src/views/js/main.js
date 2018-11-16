@@ -543,8 +543,13 @@ document.addEventListener('DOMContentLoaded', function() {
     /*The move elements will be stored in the items array so that it will reduce the amount of calls
     * coming from the querySelector method. Also, movingPizzas1 is outside of the loop where, just like
     * from querySelectorAll from above, it will also reduce the amount of calls.*/
+    var getPizzaNumber = function() {
+        var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+        return (Math.round(h / 4 / 8)) ;
+    };
+
     var movingPizzas = document.querySelector("#movingPizzas1");
-    for (var i = 0; i < 200; i++) {
+    for (var i = 0; i < getPizzaNumber; i++) {
         var elem = document.createElement('img');
         elem.className = 'mover';
         elem.src = "images/pizza.png";
